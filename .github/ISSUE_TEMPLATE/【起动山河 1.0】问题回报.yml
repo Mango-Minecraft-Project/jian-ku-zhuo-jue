@@ -20,7 +20,7 @@ body:
       value: |
         ## 如何覆现
   - type: textarea
-    id: description
+    id: reproduction
     attributes:
       label: |
         简单描述如何触发此问题，若未知则不需填写；
