@@ -32,7 +32,7 @@ body:
       value: |
         ## 记录档
   - type: textarea
-    id: description
+    id: log_file
     attributes:
       label: |
         记录档在 minecraft/logs/latest.log，请上传至 mclo.gs 后传至此
