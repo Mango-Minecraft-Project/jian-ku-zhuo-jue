@@ -1,30 +1,27 @@
-name: "【起动山河 1.0】问题回报"
-description: "回报关于「起动山河 1.0」的问题"
+name: 【起动山河 1.0】问题回报
+description: 回报关于「起动山河 1.0」的问题
 title: "[Bug] [起动山河 1.0]: "
 labels: ["bug", "起动山河 1.0"]
 body:
-- type: markdown
-  attributes:
-    value: "## 描述问题"
 - type: textarea
   id: description
   attributes:
-    label: "详细描述问题内容；"
+    label: |
+      ## 描述问题
+      详细描述问题内容；
   validations:
     required: true
-- type: markdown
-  attributes:
-    value: "## 如何覆现"
 - type: textarea
   id: reproduction
   attributes:
-    label: "简单描述如何触发此问题，若未知则不需填写；"
+    label: |
+      ## 如何覆现
+      简单描述如何触发此问题，若未知则不需填写；
   validations:
     required: true
-- type: markdown
-  attributes:
-    value: "## 记录档"
 - type: input
   id: log_file
   attributes:
-    label: "记录档在 minecraft/logs/latest.log，请上传至 https://mclo.gs/ 后传至此"
+    label: |
+      ## 记录档
+      记录档在 minecraft/logs/latest.log，请上传至 https://mclo.gs/ 后传至此
