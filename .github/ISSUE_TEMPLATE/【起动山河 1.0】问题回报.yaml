@@ -35,4 +35,4 @@ body:
     id: log_file
     attributes:
       label: |
-        记录档在 minecraft/logs/latest.log，请上传至 [mclo.gs](https://mclo.gs/) 后传至此
+        记录档在 minecraft/logs/latest.log，请上传至 https://mclo.gs/ 后传至此
