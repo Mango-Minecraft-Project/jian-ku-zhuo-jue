@@ -1,6 +1,6 @@
 name: 【起动山河 1.0】问题回报
 description: 回报关于「起动山河 1.0」的问题
-title: "[Bug][起动山河 1.0]: "
+title: "[Bug] [起动山河 1.0]: "
 labels: ["bug", "起动山河 1.0"]
 body:
   - type: markdown
@@ -36,5 +36,3 @@ body:
     attributes:
       label: |
         记录档在 minecraft/logs/latest.log，请上传至 mclo.gs 后传至此
-    validations:
-      required: false
